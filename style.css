@@ -37,7 +37,7 @@ a:hover {
 
 .container {
     margin: 0px auto;
-    width: 940px;
+    max-width: 940px;
     height: 135px;
     background-color: grey;
 }
@@ -81,14 +81,16 @@ a:hover {
 }
 
 .nav_container {
-    padding-top:40px;
+    height: 60px;
+    padding-top:80px;
     padding-left:175px;
 }
 
 .menuitem {
     display: block;
     position: relative;
-    padding-top:60px;
+    padding-top:10px;
+    padding-bottom: 5px;
     padding-left: 7px;
     padding-right: 7px;
 }
@@ -188,6 +190,7 @@ a:hover {
  .full-width-image-container {
 	width: 100%;
     overflow: hidden;
+    padding-top: 5px;
   }
 
  .full-width-image {
