@@ -155,9 +155,26 @@ a:hover {
     min-height: 1200px;
     background-color: rgb(196, 196, 196);
 }
+/* Home */
+ .full-width-image-container {
+	width: 100%;
+    overflow: hidden;
+  }
+
+ .full-width-image {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+  }
+
+  /* For fixed-height sections */
+  .full-width-image.fixed-height {
+    height: 500px; /* Custom height */
+    object-fit: cover; /* Crop to fill */
+  }
+
 
 /* Board and Officers */
-        /* Basic Styling - Customize as needed */
 .team-container {
     max-width: 1200px;
     margin: 0 auto;
