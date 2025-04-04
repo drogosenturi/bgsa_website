@@ -1,0 +1,157 @@
+:root{
+    --background-color: rgb(255, 255, 255);
+    --font: Arial, Helvetica, sans-serif;
+    --font-color: rgb(0, 0, 0);
+    --accent1: rgb(172, 167, 167);
+    --accent2: rgb(5, 0, 71);
+}
+
+body {
+    background-color:grey;
+    font-family: var(--font);
+    color: var(--font-color);
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    height: auto;
+    position:relative;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: bottom;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:rgb(151, 17, 17)
+}
+
+.container {
+    margin: 0px auto;
+    width: 940px;
+    height: 135px;
+    background-color: grey;
+}
+
+.logo {
+    float:left;
+    height: 125px;
+    width: 125px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size:24px;
+}
+
+.nav_container {
+    padding-top:40px;
+    padding-left:175px;
+}
+
+.menuitem {
+    display: block;
+    position: relative;
+    padding-top:60px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.extlinks {
+    display: block;
+    position: relative;
+    padding-top:5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.mobile-menu-box {
+    padding-top:85px;
+    left:0px;
+}
+
+.burger-items {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left:0px;
+    color:aliceblue;
+}
+/* hide mobile menu on desktop */
+.hamburger, .mobile_menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #handles {
+        display: none;
+    }
+    
+    .nav_container{
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+        position: absolute;
+        right: 2rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 65px;
+        padding-top: 10px;
+        z-index: 11;
+    }
+    /* hide by default */
+    .mobile_menu {
+        display: none;
+        list-style: none;
+        position: absolute;
+        right:0px;
+        top: 0px;
+        bottom: 0;
+        height: auto;
+        max-height:30%;
+        margin: 0;
+        flex-direction: column;
+        width: 35%;
+        background: #001e62;
+        font-size: x-large;
+        font-weight: bold;
+        z-index:10;
+    }
+    /* show when active */
+    .mobile_menu.active {
+        display: block;
+    }
+}
+
+#global_header {
+    background: grey;
+    background-position: center top;
+    width:auto;
+}
+
+#handles {
+    float:right;
+    padding-top: 6px;
+}
+
+#content {
+    position: relative;
+    margin: 0px auto;
+    padding-top:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 940px;
+    min-height: 1200px;
+    background-color: rgb(196, 196, 196);
+}
