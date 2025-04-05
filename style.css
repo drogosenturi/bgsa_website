@@ -35,6 +35,10 @@ a:hover {
     color:rgb(151, 17, 17)
 }
 
+p {
+    padding-left: 10px;
+}
+
 ul {
     list-style: none;
 }
@@ -197,6 +201,11 @@ ul {
     padding-top: 5px;
 }
 
+#image-container {
+    margin:0;
+    padding: 0;
+}
+
 #full-width-image {
     width:100%;
     height: 100%; /* Maintain aspect ratio */
@@ -209,6 +218,8 @@ ul {
 }
 
 #selector {
+    margin:0;
+    padding: 0;
     height: 20px;
 }
 

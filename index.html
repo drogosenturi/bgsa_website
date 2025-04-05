@@ -60,13 +60,20 @@
         <div id="content">			
 			<!-- Home Page Image -->
 			<div id="slideshow-container">
-				<img src="media/misc_photos/home.jpg" alt="BGSA Header" id="full-width-image">
+                <ul id="image-container">
+                    <li style="display: block;">
+                        <img src="media/misc_photos/home.jpg" alt="BGSA Header" id="full-width-image">
+                    </li>
+                    <li style="display: none;">
+                        <img id="full-width-image" src="media/misc_photos/presidents_horiz.jpg">
+                    </li>
+                </ul>
                 <ul id="selector">
                     <li class="selected">
-                        <a class="unselected" style="display:none;"></a>
+                        <a href="javascript:void(0);" class="unselected" style="display:none;"></a>
                     </li>
                     <li class="">
-                        <a class="unselected" style="display: block;"></a>
+                        <a href="javascript:void(0);" class="unselected" style="display: block;"></a>
                     </li>
                 </ul>
 			</div>
