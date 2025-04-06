@@ -159,7 +159,7 @@ ul {
         top: 0px;
         bottom: 0;
         height: auto;
-        max-height:40%;
+        max-height:400px;
         margin: 0;
         flex-direction: column;
         width: 35%;
