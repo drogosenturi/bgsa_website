@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="media/logos/bgsa_logo125x125.png">
+        <title>BGSA Board and Officers</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <ul class="mobile_menu">
+            <div class="mobile-menu-box">
+                <li><a href="newsletter" class="burger-items">Newsletter</a></li>
+                <li><a href="events" class="burger-items">Events</a></li>
+                <li><a href="board_officers" class="burger-items">Board and Officers</a></li>
+                <li><a href="contact" class="burger-items">Contact</a></li>
+            </div>
+        </ul>
+        <div id="global_header">
+            <div class="container">
+                <!--Clickable BGSA logo-->
+                <div class="logo">
+                    <span>
+                        <a href="index.html" class="logo-link">
+							<img src="media/logos/bgsa_logo125x125.png" alt="BGSA Logo" class="logo-default">
+							<img src="media/logos/bgsa_alt_125x125.png" alt="BGSA Logo" class="logo-hover">
+						</a>
+                    </span>
+                </div>
+                <div id="handles">
+                    <a href="#" class="ext_links">
+                        <img src='media/logos/Bluesky_Logo_small.png'>
+                    </a>
+                    <a href="https://x.com/UBgsa5342" class="ext_links">
+                        <img src='media/logos/x_logo_small.png'>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61574231033481" class="ext_links">
+                        <img src='media/logos/fb_logo_small.png'>
+                    </a>
+                    <a href="https://www.instagram.com/uicbgsa/" class="ext_links">
+                        <img src='media/logos/insta_logo_small.png'>
+                    </a>
+                </div>
+                <div class="nav_container">
+                    <nav>
+                        <a href="newsletter" class="menuitem">Newsletter</a>
+                        <a href="events" class="menuitem">Events</a>
+                        <a href="board_officers" class="menuitem">Board and Officers</a>
+                        <a href="contact" class="menuitem">Contact</a>
+                    </nav>
+                </div>
+                <!--hamburger menu-->
+                <button class="hamburger">
+                    ☰
+                </button>
+            </div>
+        </div>
+        <div id="content">
+			<!--Executive Board and Officers Section-->
+			<section class="team-container">
+				<h1>Our Executive Board & Officers</h1>
+				
+				<!-- First Row (Executive Board) -->
+				<div class="team-row">
+					<!-- President -->
+					<div class="team-member">
+						<img src="media/headshots/Nik.png" alt="Nikolas Ballut" class="member-photo">
+						<h3 class="member-name">Nikolas Ballut</h3>
+						<p class="member-title">President</p>
+						<p class="member-description">2nd Year Phd Student</p>
+						<p class="member-description">E&E</p>
+						<p class="member-description">Minor Lab</p>
+					</div>
+					
+					<!-- Vice President -->
+					<div class="team-member">
+						<img src="media/headshots/Samira.png" alt="Samira Umar" class="member-photo">
+						<h3 class="member-name">Samira Umar</h3>
+						<p class="member-title">Vice President</p>
+						<p class="member-description">4th Year Phd Student</p>
+						<p class="member-description">E&E</p>
+						<p class="member-description">Gonzalez-Meler Lab</p>
+					</div>
+					
+					<!-- Secretary -->
+					<div class="team-member">
+						<img src="media/headshots/Siete.png" alt="César Alexander Siete" class="member-photo">
+						<h3 class="member-name">César Alexander Siete</h3>
+						<p class="member-title">Secretary</p>
+						<p class="member-description">1st Year Phd Student</p>
+						<p class="member-description">MCDB</p>
+						<p class="member-description">Chuang Lab</p>
+					</div>
+					
+					<!-- Treasurer -->
+					<div class="team-member">
+						<img src="media/headshots/Fariha.png" alt="Fariha Islam" class="member-photo">
+						<h3 class="member-name">Fariha Islam</h3>
+						<p class="member-title">Treasurer</p>
+						<p class="member-description">3rd Year Phd Student</p>
+						<p class="member-description">MCDB</p>
+						<p class="member-description">Lynch Lab</p>
+					</div>
+				</div>
+				
+				<!-- Second Row (Officers) -->
+				<div class="team-row">
+					<!-- Media and Communications -->
+					<div class="team-member">
+						<img src="media/headshots/Hamida.png" alt="Hamida Nooreen Mahmood" class="member-photo">
+						<h3 class="member-name">Hamida Nooreen Mahmood</h3>
+						<p class="member-title">Media and Communications</p>
+						<p class="member-description">3rd Year Phd Student</p>
+						<p class="member-description">MCDB</p>
+						<p class="member-description">Stone Lab</p>
+					</div>
+					
+					<!-- Faculty Liaison -->
+					<div class="team-member">
+						<img src="media/headshots/Fuentes.png" alt="César Fuentes" class="member-photo">
+						<h3 class="member-name">César Fuentes</h3>
+						<p class="member-title">Faculty Liaison</p>
+						<p class="member-description">3rd Year Phd Student</p>
+						<p class="member-description">E&E</p>
+						<p class="member-description">Gonzalez-Meler Lab</p>
+					</div>
+					
+					<!-- Events Coordinator -->
+					<div class="team-member">
+						<img src="media/headshots/Luisa.png" alt="Luisa Mestriner" class="member-photo">
+						<h3 class="member-name">Luisa Mestriner</h3>
+						<p class="member-title">Events Coordinator</p>
+						<p class="member-description">2nd Year Phd Student</p>
+						<p class="member-description">Neuro</p>
+						<p class="member-description">Gong Lab</p>
+					</div>
+				</div>
+			</section>
+
+			<!--Committees Section-->
+			<section class="team-container">
+				<h1>Our Committees</h1>
+				
+				<!-- First Row -->
+				<div class="team-row">
+					<!-- Budgets, Grants, and Fundraising -->
+					<div class="team-member">
+						<img src="media/logos/Budget_Committee_Logo_(red).png" alt="Budget, Grants, and Fundraising" class="member-photo">
+						<h3 class="member-name">Budgets, Grants, and Fundraising</h3>
+						<p class="member-title">Ran by Treasurer</p>
+						<p class="member-description">Fariha Islam</p>
+						<p class="member-description">Sarah Dietzen</p>
+						<p class="member-description">Fabiola Rios</p>
+						<p class="member-description">Samira Umar</p>
+					</div>
+					
+					<!-- Elections and Amendments -->
+					<div class="team-member">
+						<img src="media/logos/Elections_and_Amendments_Committee_Logo_(white).png" alt="Elections and Ammendments" class="member-photo">
+						<h3 class="member-name">Elections and Ammendments</h3>
+						<p class="member-title">Ran by Secretary</p>
+						<p class="member-description">César Alexander Siete</p>
+						<p class="member-description">Pritha Das</p>
+						<p class="member-description">Soraida Quintero</p>
+					</div>
+					
+					<!-- Track Representatives and Faculty Liaison -->
+					<div class="team-member">
+						<img src="media/logos/Faculty_Liason_Committee_Logo_(red).png" alt="Track Representative and Faculty Liaison" class="member-photo">
+						<h3 class="member-name">Track Representative and Faculty Liaison</h3>
+						<p class="member-title">Ran by Faculty Liason Officer</p>
+						<p class="member-description">César Fuentes</p>
+						<p class="member-description">Shawn Arreguin</p>
+						<p class="member-description">Pritha Das</p>
+						<p class="member-description">Kiersten Oderman</p>
+						<p class="member-description">Frances Crable</p>
+						<p class="member-description">Noah Skelly</p>
+						<p class="member-description">Chloe Berna</p>
+					</div>
+				</div>
+				
+				<!-- Second Row -->
+				<div class="team-row">
+					<!-- Media and Communications -->
+					<div class="team-member">
+						<img src="media/logos/Media_and_Comms_Committee_Logo_(white).png" alt="Media and Communications" class="member-photo">
+						<h3 class="member-name">Media and Communications</h3>
+						<p class="member-title">Ran by Media and Communications Officer</p>
+						<p class="member-description">Hamida Nooreen Mahmood</p>
+						<p class="member-description">Sage DeLong</p>
+						<p class="member-description">Fabiola Rios</p>
+						<p class="member-description">Frances Crable</p>
+						<p class="member-description">César Alexander Siete</p>
+						<p class="member-description">Shreya Karuvat Anand</p>
+						<p class="member-description">Shalmolee Das</p>
+						<p class="member-description">Samira Umar</p>
+					</div>
+					
+					<!-- Events -->
+					<div class="team-member">
+						<img src="media/logos/Events_Committee_Logo_(white).png" alt="Events" class="member-photo">
+						<h3 class="member-name">Events</h3>
+						<p class="member-title">Ran by Events Coordinator Officer</p>
+						<p class="member-description">Luisa Mestriner</p>
+						<p class="member-description">Folashade (Gloria) Olorunfemi</p>
+						<p class="member-description">Jessica Montoya</p>
+						<p class="member-description">Sangita Ghimire</p>
+						<p class="member-description">Hamida Nooren Mahmood</p>
+						<p class="member-description">Shawn Arreguin</p>
+						<p class="member-description">Shreya Karuvat Anand</p>
+						<p class="member-description">Soraida Quintero</p>
+						<p class="member-description">Frances Crable</p>
+						<p class="member-description">César Alexander Siete</p>
+						<p class="member-description">Samira Umar</p>
+						
+					</div>
+				</div>
+			</section>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

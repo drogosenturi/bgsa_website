@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="media/logos/bgsa_logo125x125.png">
+        <title>BGSA Newsletter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <ul class="mobile_menu">
+            <div class="mobile-menu-box">
+                <li><a href="newsletter" class="burger-items">Newsletter</a></li>
+                <li><a href="events" class="burger-items">Events</a></li>
+                <li><a href="board_officers" class="burger-items">Board and Officers</a></li>
+                <li><a href="contact" class="burger-items">Contact</a></li>
+            </div>
+        </ul>
+        <div id="global_header">
+            <div class="container">
+                <!--Clickable BGSA logo-->
+                <div class="logo">
+                    <span>
+                        <a href="index.html" class="logo-link">
+							<img src="media/logos/bgsa_logo125x125.png" alt="BGSA Logo" class="logo-default">
+							<img src="media/logos/bgsa_alt_125x125.png" alt="BGSA Logo" class="logo-hover">
+						</a>
+                    </span>
+                </div>
+                <div id="handles">
+                    <a href="#" class="ext_links">
+                        <img src='media/logos/Bluesky_Logo_small.png'>
+                    </a>
+                    <a href="https://x.com/UBgsa5342" class="ext_links">
+                        <img src='media/logos/x_logo_small.png'>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61574231033481" class="ext_links">
+                        <img src='media/logos/fb_logo_small.png'>
+                    </a>
+                    <a href="https://www.instagram.com/uicbgsa/" class="ext_links">
+                        <img src='media/logos/insta_logo_small.png'>
+                    </a>
+                </div>
+                <div class="nav_container">
+                    <nav>
+                        <a href="newsletter" class="menuitem">Newsletter</a>
+                        <a href="events" class="menuitem">Events</a>
+                        <a href="board_officers" class="menuitem">Board and Officers</a>
+                        <a href="contact" class="menuitem">Contact</a>
+                    </nav>
+                </div>
+                <!--hamburger menu-->
+                <button class="hamburger">
+                    ☰
+                </button>
+            </div>
+        </div>
+        <div id="content">
+            <!--<iframe src="lorem.pdf" type="application/pdf" width="100%" height="1200px">-->
+            <h1>
+                Newsletter
+            </h1>
+            <blockquote>
+                <b>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel faucibus urna, a tincidunt
+                    tortor. Sed faucibus, nulla a convallis tincidunt, magna mauris posuere felis, vitae cursus nulla
+                    tortor nec elit. Vestibulum eget velit in nulla lacinia vulputate. Sed vehicula ultricies ipsum eget
+                    elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                    curae; Nulla hendrerit ac ligula a ornare. Duis pharetra dui sed risus iaculis ornare in eget
+                    massa. Etiam aliquam neque id dui molestie, quis vehicula sapien fermentum.
+                </b>
+            </blockquote>
+            <p>
+                Maecenas facilisis tellus lacus, bibendum venenatis enim dapibus consectetur. Sed efficitur
+                pellentesque odio, non finibus augue. Mauris eget nisl accumsan, pellentesque est quis, dictum dui.
+                Morbi at dolor eros. Maecenas lacinia, turpis non varius eleifend, quam erat scelerisque nisl, sit amet
+                egestas ante ante fringilla tellus. Nullam ac lectus a neque hendrerit faucibus. Duis vitae vulputate
+                lectus. Nam vulputate sodales risus, non commodo ligula imperdiet non. Fusce sapien mauris, viverra
+                sed maximus at, consequat id mauris. Pellentesque sodales lobortis eros vitae consectetur. Integer
+                dictum scelerisque egestas.
+            </p>
+            <h2>
+                Quisque placerat orci odio
+            </h2>
+            <p>
+                Vestibulum euismod hendrerit neque, quis interdum orci maximus at. Praesent ornare rutrum nulla, nec
+                auctor diam hendrerit id. Duis pellentesque euismod augue non placerat. Pellentesque in consectetur
+                leo. Nam ultricies magna quis velit tempus lacinia. Etiam tempor neque sit amet leo facilisis, vel
+                ultrices eros porttitor. Etiam sapien ipsum, aliquet luctus ultrices nec, rhoncus a turpis. Fusce turpis
+                nunc, dignissim ut tincidunt sed, bibendum sit amet arcu. Suspendisse quam leo, aliquet ultrices ultrices
+                ut, aliquam et est. Aliquam nec metus sit amet ipsum egestas dignissim. Ut tortor tortor, feugiat nec
+                justo in, rhoncus malesuada nisi. Praesent venenatis nisi quis diam vulputate efficitur.
+            </p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -48,6 +48,7 @@
                         <a href="newsletter" class="menuitem">Newsletter</a>
                         <a href="events" class="menuitem">Events</a>
                         <a href="board_officers" class="menuitem">Board and Officers</a>
+						<a href="committees" class="menuitem">Committees</a>
                         <a href="contact" class="menuitem">Contact</a>
                     </nav>
                 </div>
@@ -59,29 +60,12 @@
         </div>
         <div id="content">			
 			<!-- Home Page Image -->
-			<div id="slideshow-container">
-                <ul id="image-container">
-                    <li style="display: block;">
-                        <img src="media/misc_photos/board_and_officers_plain.png" alt="BGSA Header" id="full-width-image">
-                    </li>
-                    <li style="display: none;">
-                        <img id="full-width-image" src="media/misc_photos/presidents_horiz.jpg">
-                    </li>
-                </ul>
-                <ul id="selector">
-                    <li class="selected">
-                        <a href="javascript:void(0);" class="unselected" style="display:none;"></a>
-                    </li>
-                    <li class="">
-                        <a href="javascript:void(0);" class="unselected" style="display: block;"></a>
-                    </li>
-                </ul>
+			<div class="full-width-image-container">
+				<img src="media/misc_photos/home.jpg" alt="BGSA Header" class="full-width-image">
 			</div>
 			<!-- Mission Statement and Vision -->
             <blockquote>
-                <b>Welcome!</b>
-            </blockquote>
-            <p style="padding-left: 10px;">
+                <b>
                     The BIOS Graduate Student Association seeks to unite and sustain a diverse community of
 					graduate students across both East and West campuses and all BIOS programs (E&E, MCDB,
 					N, ABC). Our mission is to empower students by fostering collaboration, mutual support, and
@@ -89,7 +73,8 @@
 					funding opportunities, and inclusive social networks, we aim to help students thrive and shape
 					impactful initiatives. Together, we strive to build a community where every voice is respected
 					and valued and a strong sense of belonging is cultivated for all.
-            </p>
+                </b>
+            </blockquote>
         </div>
         <script src="script.js"></script>
     </body>
