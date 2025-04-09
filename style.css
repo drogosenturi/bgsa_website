@@ -178,6 +178,8 @@ ul {
     background: grey;
     background-position: center top;
     width:auto;
+    position: sticky;
+    top: 0;
 }
 
 #handles {
