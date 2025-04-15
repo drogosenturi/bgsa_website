@@ -199,15 +199,16 @@ p a {
     .mobile_menu {
         display: none;
         list-style: none;
-        position: absolute;
+        float:inline-end;
+        position:fixed;
         right:0px;
         top: 0px;
         bottom: 0;
         height: auto;
-        max-height:400px;
+        max-height:480px;
         margin: 0;
         flex-direction: column;
-        width: 35%;
+        width: 50%;
         background: #001e62;
         font-size: x-large;
         font-weight: bold;
@@ -215,7 +216,7 @@ p a {
     }
     /* show when active */
     .mobile_menu.active {
-        display: block;
+        display: flex;
     }
 }
 
@@ -225,6 +226,7 @@ p a {
     width:auto;
     position: sticky; /*sticky header*/
     top: 0;
+    z-index: 8;
 }
 
 #handles {
