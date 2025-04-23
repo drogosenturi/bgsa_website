@@ -430,6 +430,7 @@ p a {
 .calendar-container {
     position: relative;
     width: 100%;
+    max-width: 800px; /* Adjust as needed */
     padding-bottom: 75%; /* Aspect ratio (600px height / 800px width) */
     height: 0;
     overflow: hidden;
