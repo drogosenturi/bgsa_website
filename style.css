@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color:grey;
+    background-color: #336fff8a;
     font-family: var(--font);
     color: var(--font-color);
     padding: 0;
@@ -15,6 +15,7 @@ body {
     min-height: 100%;
     height: auto;
     position:relative;
+    font-size: 18px;
 }
 
 ul {
@@ -36,7 +37,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 li a, .dropbtn {
@@ -58,7 +59,7 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: darkgrey;
+    background-color: rgb(151, 17, 17);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -72,7 +73,7 @@ li.dropdown {
     text-align: left;
 }
   
-.dropdown-content a:hover {background-color: rgb(151, 17, 17);}
+.dropdown-content a:hover {background-color: #153275;}
   
 .dropdown:hover .dropdown-content {
     display: block;
@@ -83,7 +84,10 @@ li.dropdown {
 }*/
 
 p {
-    padding-left:0px;
+    text-align: center;
+    letter-spacing: .2px;
+    padding-left:10px;
+    padding-right: 10px;
 }
 
 p a {
@@ -94,7 +98,14 @@ p a {
     margin: 0px auto;
     max-width: 940px;
     height: 135px;
-    background-color: grey;
+}
+
+#footer {
+    margin: 0px auto;
+    height: 60px;
+    background: #153275;
+    background-position: center top;
+    width:auto;
 }
 
 .logo {
@@ -138,8 +149,8 @@ p a {
 }
 
 .nav_container {
-    height: 60px;
-    padding-top:80px;
+    height: 50px;
+    padding-top:86px;
     padding-left:175px;
 }
 
@@ -187,12 +198,12 @@ p a {
     .hamburger {
         display: flex;
         position: absolute;
-        right: 2rem;
+        right: 1rem;
         background: none;
         border: none;
         cursor: pointer;
-        font-size: 65px;
-        padding-top: 10px;
+        font-size: 54px;
+        padding-top: 5px;
         z-index: 11;
     }
     /* hide by default */
@@ -209,7 +220,8 @@ p a {
         margin: 0;
         flex-direction: column;
         width: 50%;
-        background: #001e62;
+        background: rgb(151, 17, 17);
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         font-size: x-large;
         font-weight: bold;
         z-index:10;
@@ -218,15 +230,43 @@ p a {
     .mobile_menu.active {
         display: flex;
     }
+    .container {
+        height:95px;
+    }
+    .logo {
+        float:left;
+        height: 80px;
+        width: 80px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size:24px;
+    }
+    .logo-link img {
+        width: 85px;
+        height: 85px;
+        transition: opacity 0.3s ease;
+    }
+    
+    .logo-hover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 90px;
+        height: 90px;
+    }
 }
 
 #global_header {
-    background: grey;
+    background: #153275;
     background-position: center top;
     width:auto;
     position: sticky; /*sticky header*/
     top: 0;
     z-index: 8;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 #handles {
@@ -240,7 +280,6 @@ p a {
     margin: 0px auto;
     padding-top:5px;
     max-width: 940px;
-    background-color: rgb(196, 196, 196);
 }
 
 #videoframe {
@@ -255,7 +294,7 @@ p a {
 #slideshow-container {
     display:grid;
     justify-items: center;
-    width: 80%;
+    width: 100%;
     height:100%;
     overflow: hidden;
     padding-top: 5px;
@@ -269,6 +308,7 @@ p a {
 #full-width-image {
     width:100%;
     height: 100%; /* Maintain aspect ratio */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
 }
 
 #small-image {
