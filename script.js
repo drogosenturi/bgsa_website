@@ -1,6 +1,7 @@
 console.log("JS loaded")
 /* hamburger menu toggle */
-document.querySelector('.hamburger').addEventListener('click',function(){
+const hamburger = document.querySelector(".hamburger");
+hamburger.addEventListener('click',() => {
     const mobileMenu = document.querySelector('.mobile_menu');
     mobileMenu.classList.toggle('active');
     console.log("clicked!");
@@ -28,30 +29,57 @@ for (i = 0; i < pics.length; i++) {
 
 let active = 0;
 arr = [].slice.call(selector.children)
-function setActive() {
-    for (const i in arr) {
-        if (arr[i].dataset.on === "true") {
-            active = Number(i);
-            console.log(i);
-        }
-        console.log(arr[i].dataset.on);
-    }
-}
-function select(e) {
+
+function select(e, a) {
     for (i of selector.children) {
         i.src = glowy[1];
         i.dataset.on = false;
     }
-    e.target.src = glowy[0];
-    e.target.dataset.on = true;
+    if (a) {
+        selector.children[a].src = glowy[0];
+        selector.children[a].dataset.on = true;
+    } else if (a === 0) {
+        selector.children[0].src = glowy[0];
+        selector.children[0].dataset.on = true;
+    } else {
+        e.target.src = glowy[0];
+        e.target.dataset.on = true;
+    }
     arr = [].slice.call(selector.children)
+    setActive(a);
 }
 
-function slideshow(e) {
+function setActive(a) {
+    if (a) {
+        active = a
+    } else {
+        for (const i in arr) {
+            if (arr[i].dataset.on === "true") {
+                active = Number(i);
+                console.log(i);
+            }
+            console.log(arr[i].dataset.on);
+        }
+    }
+    slideshow();
+}
+
+function slideshow() {
     currentSlide.src = pics[active];
 }
 
+function rotate() {
+    if (active < pics.length - 1) {
+        active += 1;
+    } else {
+        active = 0;
+    }
+    select(1,active)
+}
+setInterval(rotate, 5000);
 
 selector.addEventListener('click',select);
+/*
 selector.addEventListener('click', setActive);
 selector.addEventListener("click",slideshow);
+*/
