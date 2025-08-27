@@ -373,6 +373,10 @@ p a {
     border: 3px solid #333;
     margin: 0 auto 15px;
 }
+
+.item-photo:hover {
+    border: 3px solid goldenrod;
+}
         
 .item-name {
     font-weight: bold;
