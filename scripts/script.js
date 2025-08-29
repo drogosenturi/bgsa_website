@@ -10,9 +10,9 @@ hamburger.addEventListener('click',() => {
 /* slideshow */
 const currentSlide = document.querySelector("#full-width-image");
 const selector = document.querySelector("#selector");
-const pics = ["../media/misc_photos/ssa_good.jpg", "../media/misc_photos/ssa_lively.jpg", 
-    "../media/misc_photos/swap.jpg", "../media/misc_photos/ssa_wide.jpg", 
-    "../media/misc_photos/election.jpg", "../media/misc_photos/board_and_officers_plain.png"];
+const pics = ["../media/misc_photos/ssa_good.jpg","../media/misc_photos/volleyball_squad.jpg",
+    "../media/misc_photos/swap.jpg", "../media/misc_photos/volleyball_action.jpg",
+     "../media/misc_photos/ssa_lively.jpg", "../media/misc_photos/board_and_officers_plain.png"];
 const glowy = ["../media/logos/silde-on.png","../media/logos/silde-off.png"];
 let active = 0;
 let arr = [].slice.call(selector.children); // access a list of the selector's children

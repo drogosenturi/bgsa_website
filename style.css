@@ -620,3 +620,16 @@ li.dropdown-gala {
     height: 100%;
 
   }
+
+.front-page-btn {
+  color:rgb(255, 215, 0);
+  background: rgb(0, 0, 0); 
+  width:max-content;
+  box-shadow: 5px 5px 5px rgb(255, 215, 0); 
+  padding-inline: 40px; 
+  margin-bottom: 40px; 
+}
+
+.front-page-btn:hover {
+  background: darkred; 
+}
