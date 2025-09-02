@@ -385,6 +385,16 @@ p a {
     width: 150px;
 }
 }
+
+.silent-auction-btn {
+    color:black;
+    text-decoration: underline;
+}
+
+.silent-auction-btn:hover {
+    color:darkred
+}
+
 /*
 li a, .dropbtn-gala {
     display: inline-block;
@@ -625,4 +635,32 @@ li.dropdown-gala {
 
 .front-page-btn:hover {
   background: darkred; 
+}
+
+.gala-btn   {
+  color:rgb(255, 215, 0);
+  background: rgb(0, 0, 0); 
+  padding-inline:20px;
+  margin-bottom: 40px; 
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 4mm ridge goldenrod; 
+}
+
+.gala-btn:hover {
+  background: darkred; 
+}
+
+.committee-btn {
+    color:rgb(255, 255, 255); 
+    background: rgb(0, 30, 98); 
+    width:max-content; 
+    box-shadow: 5px 5px 5px rgb(213, 0, 50); 
+    padding-inline: 40px;
+}
+
+.committee-btn:hover {
+    background: rgb(213, 0, 50); 
+    box-shadow: 5px 5px 5px rgb(0, 30, 98); 
 }
